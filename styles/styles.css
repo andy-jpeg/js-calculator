@@ -1,0 +1,52 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    border: 3px solid black;
+    justify-content: center;
+    aspect-ratio: 4 / 5;
+    max-width: 300px;
+    max-height: 360px;
+}
+
+#buttons-section, #output-section {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+#output {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 10px;
+    width: 240px;
+    height: 40px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+
+#buttons-section {
+    flex: 3;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+#zero {
+    width: 143px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70.5px;
+    border: 2px solid black;
+    border-left: 0px;
+    border-bottom: 0px;
+}
+
+.operator {
+    border-right-width: 0px;
+}
